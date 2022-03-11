@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: rgb(238, 253, 240);
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+/* <-----Headings-----> */
+
+body .heading{
+    color: rgb(1, 139, 81);
+    position: relative;
+    padding: 20px;
+    top: 100px;
+    height: 200px;
+    
+}
+
+body .heading h1{
+    height: 150px;
+    line-height: 2;
+    
+}
+body .heading h2{
+    font-weight: normal;
+    
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem
+}
+h3,h2{
+    margin: 10px auto;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(1, 202, 18);
+
+}
+p{
+    color:rgb(21, 85, 28);
+}
+
+/* <------Top Container--------> */
+
+
+
+h2{
+    font-size: 2.5rem;
+}
+
+.top-container{
+    position: relative;
+    height: 100vh;
+    background-color: rgb(223, 255, 226)
+}
+
+.mountain{
+    margin: 10% 0; 
+}
+
+
+.top-cloud{
+    width: 200px;
+    position: absolute;
+    right: 300px;
+    top: 70px;
+}
+.bottom-cloud{
+    width: 200px;
+    position: absolute;
+    top: 250px;
+    left: 300px;
+}
+
+img{
+    margin: 10px auto;
+}
+
+
+
+
+.profile{
+    margin: 50px auto;
+    width: 30%;
+    line-height: 2;
+}
+
+.profile img{
+    
+    border-radius: 100%;
+}
+
+
+
+.skills h2{
+    margin-top: 50px;
+    font-weight: bolder;
+}
+
+.skill-row{
+    /* display: inline-block; */
+    margin: 100px auto;
+    width: 50%;
+    /* text-align: left; */
+    line-height: 2;
+    content: "";
+    clear: both;
+    display: table;
+    
+}
+.skill-row h3{
+    font-size: 1.8rem;
+}
+
+.odd{
+    text-align: left;
+}
+.even{
+    text-align: right;
+}
+
+.odd .skill-ico{
+    width: 25%;
+    float: left;
+    margin: 0 30px 0 0;
+}
+
+.even .skill-ico{
+    width: 25%;
+    float: right;
+    margin: 0 0 0 30px;
+} 
+
+
+.skill-row .react-ico{
+    -webkit-animation: rotation 10s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+
+hr{
+    border-style: dotted none none ;
+    border-width: 10px;
+    border-color: grey;
+    margin: 100px auto;
+    height: 10px;
+    width: 5%;
+}
+
+/* <-------Contact-------> */
+.contact-me{
+    width: 70%;
+    margin: 100px auto;
+    line-height: 2;
+}
+.contact-me p{
+    margin: 0 auto;
+    width: 50%;
+}
+
+/* <------------------------Button Style----------------------------------------------------> */
+.BUTTON_MVR {
+    background: rgb(1, 202, 18);
+    background-image: -webkit-linear-gradient(top, rgb(1, 202, 18), rgb(5, 121, 15));
+    background-image: -moz-linear-gradient(top, #2476D2, #0F3777);
+    background-image: -ms-linear-gradient(top, #2476D2, #0F3777);
+    background-image: -o-linear-gradient(top, #2476D2, #0F3777);
+    background-image: -webkit-gradient(to bottom, #2476D2, #0F3777);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 11px;
+    line-height: 11px;
+    color: #FFFFFF;
+    font-family: Arial;
+    width: 175px;
+    font-size: 25px;
+    font-weight: 100;
+    padding: 27px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON_MVR:hover {
+    
+    background: rgb(1, 202, 18);
+    background-image: -webkit-linear-gradient(top, #8bfa80, rgb(1, 202, 18));
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+
+
+
+
+
+
+ /* <---------Footer-----------> */
+
+ .bottom-container{
+     height: 150px;
+     background-color: rgb(5, 129, 52);
+     font-family: 'Merriweather', serif;
+
+ }
+ a{
+    display: inline-block;
+    color: rgb(145, 252, 170);
+    margin: 30px 70px;
+    
+}
+
+a:hover{
+
+    color: #044e1a;
+}
+.bottom-container p{
+    color: aliceblue;
+    margin: 20px auto;
+}
